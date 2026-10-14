@@ -1,0 +1,2 @@
+# Evidence
+Store genuine screenshots and sanitized outputs captured during the lab. Useful evidence includes Suricata version, config validation, custom rules, each protocol test, relevant `fast.log` alerts, and `eve.json` records. Use descriptive filenames and reference them from notes/results. Do not fabricate evidence. Redact credentials, sensitive IPs/hostnames, personal data, and unrelated traffic. Do not publish sensitive PCAPs without permission.

@@ -1,0 +1,5 @@
+alert icmp any any -> any any (msg:"LAB - ICMP PACKET DETECTED"; sid:1000001; rev:1;)
+alert tcp any any -> any 80 (msg:"LAB - HTTP TRAFFIC DETECTED"; sid:1000002; rev:1;)
+alert udp any any -> any any (msg:"LAB - UDP PACKET DETECTED"; sid:1000003; rev:1;)
+alert tcp any any -> any 22 (msg:"LAB - SSH TRAFFIC DETECTED"; sid:1000004; rev:1;)
+alert udp any any -> any 53 (msg:"LAB - DNS TRAFFIC DETECTED"; sid:1000005; rev:1;)

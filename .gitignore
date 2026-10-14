@@ -1,0 +1,25 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Potentially large/sensitive captures
+*.pcap
+*.pcapng
+
+# Generated Suricata logs
+fast.log
+eve.json
+stats.log
+suricata.log
+log/
+logs/
+*.pid
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp

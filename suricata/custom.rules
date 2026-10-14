@@ -1,0 +1,4 @@
+# Suricata custom-rules template.
+# Add the rules required by your practical instructions below.
+# Document each rule's purpose and observed test result in CUSTOM_RULES_NOTES.md.
+# Confirm the active configuration loads this file and validate after changes.
